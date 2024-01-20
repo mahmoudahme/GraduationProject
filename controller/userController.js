@@ -1,4 +1,4 @@
-import { ApiError } from "../utils/apiError.js";
+import { ApiError } from "../Utils/apiError.js";
 import User from "../model/user.js";
 
 ////////////////////////////////GET ALL USERS /////////////////////////////////////////////////
