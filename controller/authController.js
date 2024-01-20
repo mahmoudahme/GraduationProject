@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt" ;
-import {ApiError} from "../Utils/apiError.js";
+import {ApiError} from "../utils/apiError.js";
 import JsonWebToken from "jsonwebtoken";
 import User from "../model/user.js";
 import dotenv from "dotenv" ;
