@@ -1,5 +1,5 @@
 import  express  from "express";
-import {verifyAdmin ,verifyUser , verifyUserAndAdmin} from "../utils/verifyToken.js"
+import {verifyAdmin ,verifyUser , verifyUserAndAdmin} from "../Utils/verifyToken.js"
 import { deleteUser, getAllUsers, getUerById, updateUser } from "../controller/userController.js";
 
 const router = express.Router();
